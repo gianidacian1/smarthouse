@@ -1,0 +1,63 @@
+@CHARSET "ISO-8859-1";
+html { font-family: 'Montserrat', sans-serif; }
+.navbar { padding: 0px 0px 10px 0px; border-radius: 0px;}
+.navbar-collapse { padding-top: 8px; float: right; }
+.navbar-brand { padding-top: 0px; }
+.logo { width: 70px; height: auto; }
+.login_btn { background-color: #fff; border-radius: 5px; color: #2E2E2E; border: none; padding: 5px 20px; text-align: center; margin-top: 10px; margin-left: 20px; }
+.dropdown-menu { padding: 0px; }
+.house_img { display: block; margin: auto;  }
+
+.room_name { text-align: center; font-size: 42px; }
+.action { font-size: 18px; }
+
+.action_btn { display: block; margin: auto; text-align: center; margin-top: 20px;}
+.action_btn img { width: 64px; height: 64px; margin: 0px 10px; cursor: pointer; }
+
+@media (max-width: 767px){
+	.navbar { padding: 0px 0px 5px 0px; }
+	.navbar-collapse { float: none; padding-top: 0px; }
+	.navbar-toggle { margin-top: 15px; }
+	.logo { width: 60px; height: auto; }
+	.login_btn { width:50%; display: block; margin: auto; }
+	.navbar-inverse .navbar-nav .open .dropdown-menu > li:hover { background-color: #2d2d2d; }
+	.navbar-nav { margin-top: 0px; }
+	.action_btn img { width: 40px; height: 40px; }
+}
+
+/*form {
+    border: 3px solid #f1f1f1;
+    
+}*/
+
+input[type=text], input[type=password] {
+    width: 300px;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    background-color: none;
+}
+
+input[type=submit] {
+    background-color: #337ab7;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 300px;
+}
+
+button:hover {
+    opacity: 0.8;
+}
+.login-form,h1
+{
+  margin: 0 auto; 
+  width:320px;
+  border:none;
+
+}
+h1{align:center;}
