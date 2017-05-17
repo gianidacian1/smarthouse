@@ -3,7 +3,7 @@
 -- http://www.phpmyadmin.net
 --
 -- Host: localhost
--- Generation Time: May 15, 2017 at 05:20 PM
+-- Generation Time: May 17, 2017 at 05:46 PM
 -- Server version: 5.7.17-0ubuntu0.16.04.2
 -- PHP Version: 7.1.3-3+deb.sury.org~xenial+1
 
@@ -38,7 +38,7 @@ CREATE TABLE `bathroom` (
 --
 
 INSERT INTO `bathroom` (`id`, `lightbulb`, `outlet`, `curtain`) VALUES
-(1, 1, 0, 1);
+(1, 1, 1, 0);
 
 -- --------------------------------------------------------
 
@@ -58,7 +58,7 @@ CREATE TABLE `kitchen` (
 --
 
 INSERT INTO `kitchen` (`id`, `lightbulb`, `outlet`, `curtain`) VALUES
-(1, 1, 0, 1);
+(1, 1, 0, 0);
 
 -- --------------------------------------------------------
 
@@ -78,7 +78,7 @@ CREATE TABLE `livingroom` (
 --
 
 INSERT INTO `livingroom` (`id`, `lightbulb`, `outlet`, `curtain`) VALUES
-(1, 1, 0, 1);
+(1, 0, 1, 1);
 
 -- --------------------------------------------------------
 
@@ -98,7 +98,7 @@ CREATE TABLE `room1` (
 --
 
 INSERT INTO `room1` (`id`, `lightbulb`, `outlet`, `curtain`) VALUES
-(1, 0, 1, 0);
+(1, 0, 0, 1);
 
 -- --------------------------------------------------------
 
@@ -118,7 +118,7 @@ CREATE TABLE `room2` (
 --
 
 INSERT INTO `room2` (`id`, `lightbulb`, `outlet`, `curtain`) VALUES
-(1, 0, 0, 0);
+(1, 1, 0, 0);
 
 -- --------------------------------------------------------
 
